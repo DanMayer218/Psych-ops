@@ -1,9 +1,14 @@
+body {
+  background-image: url(../assets/NASA-Galaxies15k-HubbleHDUV-20180816.png);
+}
+
 #header {
+  z-index: 1;
   background-image: linear-gradient(
     to right,
-    rgb(1, 1, 138),
-    rgb(217, 99, 246),
-    rgb(1, 1, 138)
+    rgb(3, 3, 134),
+    rgba(23, 4, 194, 0),
+    rgb(3, 3, 134)
   );
   height: 70px;
   width: 100%;
@@ -11,4 +16,16 @@
   font-family: "Overpass", sans-serif;
   font-size: 50px;
   padding-left: 30px;
+  box-shadow: 10px 10px 8px #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+}
+
+#eyeballs {
+  display: flex;
+  background-image: radial-gradient(rgb(195, 255, 0), rgb(177, 2, 2), black);
+  height: 500px;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
