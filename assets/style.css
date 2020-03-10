@@ -10,16 +10,19 @@ body {
     rgba(23, 4, 194, 0),
     rgb(3, 3, 134)
   );
-  height: 100px;
+  height: 80px;
   width: 100%;
   color: white;
-  font-family: "Overpass", sans-serif;
+  /* font-family: "Overpass", sans-serif; */
+  /* font-family: "Orbitron", sans-serif; */
+  font-family: "Syncopate", sans-serif;
+
   font-size: 50px;
   padding-left: 30px;
   box-shadow: 10px 10px 8px #000000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.685);
   text-align: center;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
 }
 
 #eyeballs {
@@ -38,17 +41,21 @@ body {
 }
 
 #instructions {
-  height: 100px;
+  height: 60px;
   background-image: linear-gradient(
     to right,
     rgb(3, 3, 134),
     rgba(23, 4, 194, 0),
     rgb(3, 3, 134)
   );
-  font-family: "Overpass", sans-serif;
+  /* font-family: "Overpass", sans-serif; */
+  /* font-family: "Jura", sans-serif; */
+  letter-spacing: 5px;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 10px;
 }
 
 .col-sm {
@@ -85,11 +92,32 @@ body {
 }
 
 .row {
-  height: 100px;
+  height: 130px;
   background-image: linear-gradient(
     to right,
     rgb(3, 3, 134),
     rgba(23, 4, 194, 0),
     rgb(3, 3, 134)
   );
+}
+
+#footer {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 200;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(3, 3, 134),
+    rgba(23, 4, 194, 0),
+    rgb(3, 3, 134)
+  );
+  margin-bottom: 0px;
+}
+
+a {
+  color: rgb(192, 177, 246);
 }
