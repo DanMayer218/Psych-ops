@@ -113,7 +113,7 @@ function nextGuess() {
   if (answerLetterArray.toString() === dashesAndLetters.toString()) {
     // increase victory counter and alert user of victory
     victories++;
-    alert("You win!");
+    alert("VICTORY IS IN YOUR FUTURE");
 
     // display new victory count and reset with the gameStart function
     document.getElementById("win-counter").innerHTML = victories;
@@ -125,7 +125,7 @@ function nextGuess() {
     // Add to the loss counter.
     defeats++;
     // Give the user an alert.
-    alert("You lose");
+    alert("YOUR STARS AND GUESSES DID NOT ALIGN");
 
     // display new defeat count and reset with the gameStart function
     document.getElementById("loss-counter").innerHTML = defeats;
