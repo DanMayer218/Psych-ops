@@ -1,18 +1,20 @@
 // Word list to be referenced
 var answerarray = [
-  "mystic",
-  "foresee",
-  "clairvoyant",
-  "psychic",
-  "tarot",
-  "ouiji",
-  "palm",
-  "scam",
-  "crystal",
-  "astrology",
-  "enigma",
-  "vision",
-  "fortune"
+  "MYSTIC",
+  "FORESEE",
+  "CLAIRVOYANT",
+  "PSYCHIC",
+  "TAROT",
+  "OUIJI",
+  "PALM",
+  "SCAM",
+  "CRYSTAL",
+  "ASTROLOGY",
+  "ENIGMA",
+  "VISION",
+  "FORTUNE",
+  "MAGIC",
+  "MEDIUM"
 ];
 // The selected word from the words array
 var selectedAnswer = "";
@@ -142,11 +144,11 @@ gameStart();
 document.onkeyup = function(event) {
   // verifies that the key pressed is a letter and not a number
   if (event.keyCode >= 65 && event.keyCode <= 90) {
-    // Converts all key clicks to lowercase letters.
-    var letterGuessed = event.key.toLowerCase();
-    // Runs the code to check for correctness.
+    // ALL letters TO UPPERCASE LETTERS.
+    var letterGuessed = event.key.toUpperCase();
+    // checks the seledtion
     verifyLetters(letterGuessed);
-    // Runs the code after each round is done.
+    // next guess code
     nextGuess();
   }
 };
