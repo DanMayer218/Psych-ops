@@ -33,7 +33,7 @@ body {
     rgba(116, 0, 0, 0.808),
     rgba(0, 0, 0, 0.13)
   );
-  height: 550px;
+  height: 580px;
   justify-content: center;
   align-content: center;
   padding-top: 20px;
@@ -49,7 +49,7 @@ body {
     rgb(3, 3, 134)
   );
   /* font-family: "Overpass", sans-serif; */
-  /* font-family: "Jura", sans-serif; */
+  font-family: "Jura", sans-serif;
   letter-spacing: 5px;
   color: white;
   text-align: center;
@@ -92,7 +92,7 @@ body {
 }
 
 .row {
-  height: 130px;
+  height: 100px;
   background-image: linear-gradient(
     to right,
     rgb(3, 3, 134),
